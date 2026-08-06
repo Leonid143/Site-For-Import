@@ -1,7 +1,5 @@
-cat <<EOF > .gitignore
 tmp/
-*_old
-*_backup
-Thumbs.db
+*.old
+*.backup
 .DS_Store
-EOF
+Thumbs.db
